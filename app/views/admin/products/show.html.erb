@@ -1,0 +1,18 @@
+<div class="row">
+ <h1 class="center">New Product</h1>
+  <div class="small-2 large-4 columns">   
+    <p id="notice"><%= notice %></p>
+    <div> 
+      <p><span class="bold">Name:</span><span class="right"><%= @admin_product.name %></span></p>
+      <p><span class="bold">Description:</span><span class="right"><%= @admin_product.description %></span></p>
+      <p><span class="bold">UPC Code:</span><span class="right"><%= @admin_product.upc_code %></span></p>
+      <p><span class="bold">Price:</span><span class="right"><%= @admin_product.price %></span></p>
+      <p><span class="bold">Category:</span><span class="right"><%= @admin_product.category.name %></span></p>
+    </div>
+<br />
+<%= link_to 'Edit', edit_admin_product_path(@admin_product), class: "bold" %> |
+<%= link_to 'Back', admin_products_path, class: "bold" %>
+</br>
+
+<br />
+

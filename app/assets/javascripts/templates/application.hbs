@@ -1,0 +1,22 @@
+<nav class="top-bar">
+  <ul class="title-area">
+    <li class="name">
+      <h1>{{#linkTo orders}}Open Pos{{/linkTo}}</h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <ul class="left">
+      <li class="active"><a href="#">{{#linkTo orders.new}}New Order{{/linkTo}}</a></li>
+    </ul>
+  </section>
+</nav>
+
+<div class="container">
+  <div class="row main-body">
+    <div class="twelve columns">
+      {{outlet}}
+    </div>
+  </div>
+</div>
