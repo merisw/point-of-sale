@@ -7,7 +7,6 @@ Pos::Application.routes.draw do
 
   resources :categories
   resources :line_items
-  # resources :products
 
   resources :orders do
     member do
