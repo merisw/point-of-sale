@@ -25,15 +25,15 @@ LineItem.create order_id: 6, product_id: 6, quantity: 10, price_cents: 14900, ex
 Order.create customer_email: "britt@britt.com", subtotal_cents: 3900, tax_cents: 3900*0.095, total_cents: 3900*1.095
 LineItem.create order_id: 7, product_id: 7, quantity: 1, price_cents: 3900, extended_cents: 3900*1
 
-# Product.create name: "500GB Hard Drive", description: "Great western digital hard drive", price_cents: 7995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
-# Product.create name: "750GB Hard Drive", description: "Great western digital hard drive", price_cents: 9995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
-# Product.create name: "100GB Hard Drive", description: "Great western digital hard drive", price_cents: 4995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
-# Product.create name: "256GB SSD Drive", description: "Great western SDD hard drive", price_cents: 23695, upc_code: SecureRandom.hex, category_id: 1, taxable: true
-# Product.create name: "8GB Memory", description: "Great mac compatible Ram", price_cents: 7995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
-# Product.create name: "4GB Memory", description: "Great mac compatible Ram", price_cents: 4995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
-# Product.create name: "16GB Memory", description: "Great mac compatible Ram", price_cents: 12995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
-# Product.create name: "32GB Memory", description: "Great mac compatible Ram", price_cents: 499995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
-# Product.create name: "48x DVD Drive", description: "3.5 Drive", price_cents: 16999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
-# Product.create name: "32x DVD Drive", description: "3.5 Drive", price_cents: 10299, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
-# Product.create name: "24x DVD Drive", description: "3.5 Drive", price_cents: 8999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
-# Product.create name: "12x DVD Drive", description: "3.5 Drive", price_cents: 999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
+Product.create name: "500GB Hard Drive", description: "Great western digital hard drive", price_cents: 7995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
+Product.create name: "750GB Hard Drive", description: "Great western digital hard drive", price_cents: 9995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
+Product.create name: "100GB Hard Drive", description: "Great western digital hard drive", price_cents: 4995, upc_code: SecureRandom.hex, category_id: 1, taxable: true
+Product.create name: "256GB SSD Drive", description: "Great western SDD hard drive", price_cents: 23695, upc_code: SecureRandom.hex, category_id: 1, taxable: true
+Product.create name: "8GB Memory", description: "Great mac compatible Ram", price_cents: 7995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
+Product.create name: "4GB Memory", description: "Great mac compatible Ram", price_cents: 4995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
+Product.create name: "16GB Memory", description: "Great mac compatible Ram", price_cents: 12995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
+Product.create name: "32GB Memory", description: "Great mac compatible Ram", price_cents: 499995, upc_code: SecureRandom.hex, category_id: 2, taxable: false
+Product.create name: "48x DVD Drive", description: "3.5 Drive", price_cents: 16999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
+Product.create name: "32x DVD Drive", description: "3.5 Drive", price_cents: 10299, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
+Product.create name: "24x DVD Drive", description: "3.5 Drive", price_cents: 8999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
+Product.create name: "12x DVD Drive", description: "3.5 Drive", price_cents: 999, upc_code: SecureRandom.uuid, category_id: 3, taxable: true
